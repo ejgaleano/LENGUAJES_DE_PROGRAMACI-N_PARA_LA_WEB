@@ -1,17 +1,16 @@
 <HTML>
-
+    <link rel="shortcut icon" href="imagenes/thumb-1920-1057387.jpg" type="imagenes/jpg" />
     <HEAD>
-    <TITLE>
-    Primera página con frames
-    </TITLE>
+    <TITLE>Colegio de Alas de libertad</TITLE>
     </HEAD>
 
-    <FRAMESET  COLS="20%,80%">
-    <FRAME SRC="menu.html">
+    <FRAMESET rows="20%,80%" frame border="1">
+    <FRAME name="titulo" SRC="superior.htm">
         <!-- Se crea un frame anidado --> 
-        <FRAMESET ROWS="20%,*">
-        <FRAME SRC="superior.htm">
-        <FRAME SRC="derecha.htm">
+        <frameset cols= “20%,80%” frameborder = “1”>
+        <FRAME name="menu" SRC="menu.html">
+            <!-- <frame src="html/derecha.htm" name="contenido"/> -->
+            <FRAME name="contenido" SRC="html/derecha.htm">
         </FRAMESET>
     </FRAMESET>
 
