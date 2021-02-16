@@ -1,0 +1,51 @@
+*{
+
+    margin:opx;
+    padding:opx;
+    color:rgb(182, 154, 32);  
+    font-family:fantasy;
+}
+
+div#imagen{
+    width: 920px;
+    height: 720px;
+    margin:30px;
+    background-image: url(https://img.blogs.es/anexom/wp-content/uploads/2017/10/robotica-educativa-para-ninos.jpg);
+    
+
+}
+
+div#info{
+    position: absolute;
+    overflow: hidden;
+    width: 920px;
+    height: 720px;
+    background-color: rgba(31,31,31,0.9 );
+    opacity:0;
+    -webkit-transition: opacity 0.2s;
+}
+div#imagen:hover div#info{
+    opacity: 1;
+}
+
+p#headline{
+    position: absolute;
+    margin-top: 20px;
+    -webkit-transition: 0.2s;
+    margin-left: -60px;
+    font-size:71px;
+}
+div#imagen:hover p#headline{
+    margin-left: 70px;
+}
+p#info2{
+    margin: auto;
+    width: 450px;
+    text-align: center;
+    -webkit-transition:margin 0.3s;
+    margin-top: 500px;
+    font-size:91px;
+}
+div#imagen:hover p#info2{
+    margin-top: 170px;
+}
